@@ -1,4 +1,4 @@
-body{
+body {
 	border: solid 20px #bdc3c7;
 	font-family: "Open Sans Condensed", sans-serif;
 	max-width: 700px;
@@ -7,24 +7,28 @@ body{
 	width: 80%; /*When 80% is < max-widte (700px) is when this gets activated*/
 }
 
-p.date {
-	color: #3498db;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-}
-
-h2 {
-	color: #2c3e50;
-}
-
-div{
+.quote {
 	border-left: solid 5px #bdc3c7;
 	padding-left: 5px;
 }
 
-hr{
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem; /*root embedded. similar to em but relative to the root fo the page and not a parent element*/
+}
+
+.post {
+	margin: 20px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+hr {
 	border: 0;
 	height: 3px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	margin: 40px;
 }
