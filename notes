@@ -1,0 +1,18 @@
+* = completed
+
+*Border around the Body
+*Body has an explicit width
+
+*Border color: #bdc3c7
+*Date color: #3498db
+*h2 color: #2c3e50
+
+*font: source sans pro
+
+*block quote is a left border
+*margin-left of the block quote
+
+*Dates are uppercase
+*Dates have some letter spacing
+
+*<hr> between articles
